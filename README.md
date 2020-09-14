@@ -1,4 +1,4 @@
-# URI
-Exercícios do URI Online Judge
+# URI Online Judge
+Repositório com os exercícios do URI Online Judge
 
-https://www.urionlinejudge.com.br/
+Link: https://www.urionlinejudge.com.br/
