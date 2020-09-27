@@ -1,5 +1,5 @@
 # URI Online Judge :computer:
-Repositório com os exercícios do [URI Online Judge](https://www.urionlinejudge.com.br/).
+Repositório com os exercícios do [URI Online Judge](https://www.urionlinejudge.com.br/) aprendidos no curso do @acenelio.
 
 Os exercícios estão separados da seguinte maneira:
 - As pastas são numeradas com o número do exercício do site.
