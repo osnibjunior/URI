@@ -30,7 +30,6 @@ namespace URI_1004
             PROD = A * B;
 
             Console.WriteLine("PROD = " + PROD);
-            Console.ReadLine();
 
         }
     }
