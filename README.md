@@ -6,7 +6,6 @@ Os exercícios estão separados da seguinte maneira:
 - Dentro de cada arquivo, está não só a solução, como também o enunciado do exercício.
 
 Sobre as branchs:
-- *rework*: Usado para refatorar os códigos (principalmente, ajustar para  a execução direta, com as demais classes do VSCode).
 - *develop*: Possui aquilo que estou fazendo ou ajustando, então nem sempre o que está nesta branch é o correto para a análise do URI.
 - *master*: Aqui estão os exercícios já corrigidos e finalizados. Todo o código aqui já passou pela aprovação do URI.
 
