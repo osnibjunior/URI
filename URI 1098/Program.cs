@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Globalization;
 
 namespace URI_1098
@@ -26,15 +30,29 @@ namespace URI_1098
              * I=2 J=?
              * I=2 J=?
              * I=2 J=?*/
+             
+            float I = 0.0f;
 
-             float I = 0f;
-             float J = 1f;
-
-            for (int e = 0; e < 3; e++){
-                Console.WriteLine("I="+I.ToString(CultureInfo.InvariantCulture)+" J="+J.ToString(CultureInfo.InvariantCulture));
-                J++;
+            while (I <= 2.0f)
+            {
+                float J = 1.0f;
+                if (I == 0.0f || I == 1.0f || I == 2.0f)
+                {
+                    for (int e = 0; e < 3; e++)
+                    {
+                        Console.WriteLine("I=" + I.ToString(CultureInfo.InvariantCulture) + " J=" + J.ToString(CultureInfo.InvariantCulture));
+                        J++;
+                    }
+                } else {
+                    J += 0.2f;
+                    for (int e = 0; e < 3; e++)
+                    {
+                        Console.WriteLine("I=" + I.ToString("F1", CultureInfo.InvariantCulture) + " J=" + J.ToString("F1", CultureInfo.InvariantCulture));
+                        J++;
+                    }
+                }
+                I += 0.2f;
             }
-
         }
     }
 }
