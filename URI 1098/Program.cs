@@ -31,12 +31,12 @@ namespace URI_1098
              * I=2 J=?
              * I=2 J=?*/
              
-            float I = 0.0f;
+            double I = 0.0;
 
-            while (I <= 2.0f)
+            while (I <= 2.0)
             {
-                float J = 1.0f;
-                if (I == 0.0f || I == 1.0f || I == 2.0f)
+                double J = I + 1.0;
+                if (I == 0.0 || I == 1.0)
                 {
                     for (int e = 0; e < 3; e++)
                     {
@@ -44,14 +44,18 @@ namespace URI_1098
                         J++;
                     }
                 } else {
-                    J += 0.2f;
                     for (int e = 0; e < 3; e++)
                     {
-                        Console.WriteLine("I=" + I.ToString("F1", CultureInfo.InvariantCulture) + " J=" + J.ToString("F1", CultureInfo.InvariantCulture));
-                        J++;
+                        if (I > 1.9) {
+                            Console.WriteLine("I=2 J=" + J.ToString(CultureInfo.InvariantCulture));
+                            J++;
+                        } else {
+                            Console.WriteLine("I=" + I.ToString("F1", CultureInfo.InvariantCulture) + " J=" + J.ToString("F1", CultureInfo.InvariantCulture));
+                            J++;
+                        }
                     }
                 }
-                I += 0.2f;
+                I += 0.2;
             }
         }
     }
