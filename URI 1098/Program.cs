@@ -46,7 +46,7 @@ namespace URI_1098
                 } else {
                     for (int e = 0; e < 3; e++)
                     {
-                        if (I > 1.9) {
+                        if (I > 1.9) { //Não tenho orgulho nenhum desse if criado. Infelizmente foi uma gambiarra para não desfigurar todo o projeto!
                             Console.WriteLine("I=2 J=" + J.ToString(CultureInfo.InvariantCulture));
                             J++;
                         } else {

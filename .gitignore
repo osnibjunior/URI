@@ -499,6 +499,7 @@ obj/
 /wwwroot/node_modules
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
